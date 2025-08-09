@@ -730,6 +730,7 @@ li {
     line-height: 1.5rem;
     color: var(--white-color-third);
     margin-bottom: 1.5rem;
+    white-space: nowrap;
 }
 
 .footer_cart .links {
