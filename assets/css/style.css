@@ -1433,6 +1433,7 @@ li {
 }
 
 @media (max-width: 470px){
+
     .hero_header {
         padding: 2rem 0 2.5rem 0;
     }
@@ -1486,11 +1487,11 @@ li {
 
     .welcome_left h3 {
         font-size: 1.75rem;
-        width: 65%;
+        width:65%;
     }
 
     .welcome_left p {
-        width: 60%;
+        width: 65%;
     }
 
     .welcome_right .input {
@@ -1499,12 +1500,14 @@ li {
 
     .welcome_right .input input {
         width:25.3125rem;
+        /* width: 50%; */
         border-radius: 6px;
         margin-bottom: 1rem;
     }
 
     .welcome_right .input button {
         width:25.3125rem;
+        /* width: 50%; */
         border-radius: 6px;
         margin-left: 0;
     }
@@ -1589,6 +1592,23 @@ li {
     }
 }
 
+@media (max-width: 450px){
+        .welcome_left h3 {
+        font-size: 1.75rem;
+        width:52%;
+    }
+
+    .welcome_left p {
+        width: 52%;
+    }
+    .welcome_right .input input {
+        width: 50%;
+    }
+
+    .welcome_right .input button {
+        width: 50%;
+}
+}
 
 
 /* end of tablet width */
